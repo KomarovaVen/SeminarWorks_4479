@@ -39,18 +39,34 @@ git init
 
 В чистом Маркдауне нет синтаксиса для таблиц, а в GFM есть.
 
-First Header	Second Header
-Content Cell	Content Cell
-Content Cell	Content Cell
+---------------   ---------------- 
+| First Header |  | Second Header | <br>
+---------------   ----------------  <br> 
+| Content Cell |  | Content Cell  | <br>
+---------------   ----------------
+| Content Cell |  | Content Cell  | <br>
+---------------   ----------------
+
 Для красоты можно и по бокам линии нарисовать:
 
-First Header	Second Header
-Content Cell	Content Cell
-Content Cell	Content Cell
+---------------   ----------------
+| First Header |  | Second Header |<br>
+---------------   ----------------
+| Content Cell |  | Content Cell  |<br>
+---------------   ----------------
+| Content Cell |  | Content Cell  |<br>
+---------------   ----------------
+
 Можно управлять выравниванием столбцов при помощи двоеточия.
 
-Left-Aligned	Center Aligned	Right Aligned
-col 3 is	some wordy text	$1600
-col 2 is	centered	$12
-zebra stripes	are neat	$1
+-----------------    -----------------     --------------
+| Left-Aligned  |	| Center Aligned  |	  | Right Aligned| <br>
+-----------------    -----------------     --------------
+| col 3 is      |	| some wordy text |   |         $1600| <br>
+-----------------    -----------------     --------------
+| col 2 is      |	| centered        |	  |           $12| <br>
+-----------------    -----------------     --------------
+| zebra stripes |	| are neat	      |   |            $1| <br> 
+-----------------    -----------------     --------------
+
 Внутри таблиц можно использовать ссылки, наклонный, жирный или зачеркнутый текст.
