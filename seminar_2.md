@@ -22,11 +22,9 @@ git init
 
 ## Заголовки
 
-
 ## Цитаты
 
 Цитаты оформляются как в емейлах, с помощью символа >.
-
 
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 
@@ -83,11 +81,6 @@ git init
 ```
 
 Самое приятное, что в коде не нужно заменять угловые скобки < > и амперсанд & на их html-сущности.
-
-
-
-
-
 
 ## Таблицы
 
